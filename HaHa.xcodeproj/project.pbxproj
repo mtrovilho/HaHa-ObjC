@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		981C7125155E8DDA00AC016F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 981C7124155E8DDA00AC016F /* UIKit.framework */; };
+		981C7127155E8DDA00AC016F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 981C7126155E8DDA00AC016F /* Foundation.framework */; };
+		981C7129155E8DDA00AC016F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 981C7128155E8DDA00AC016F /* CoreGraphics.framework */; };
+		981C712F155E8DDA00AC016F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 981C712D155E8DDA00AC016F /* InfoPlist.strings */; };
+		981C7131155E8DDA00AC016F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 981C7130155E8DDA00AC016F /* main.m */; };
+		981C7135155E8DDA00AC016F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 981C7134155E8DDA00AC016F /* AppDelegate.m */; };
+		981C713E155E8E1000AC016F /* haha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 981C713D155E8E1000AC016F /* haha.mp3 */; };
+		981C7147155E906600AC016F /* NelsonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 981C7145155E906600AC016F /* NelsonViewController.m */; };
+		981C7148155E906600AC016F /* NelsonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 981C7146155E906600AC016F /* NelsonViewController.xib */; };
+		981C714C155E9B7600AC016F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 981C714B155E9B7600AC016F /* AVFoundation.framework */; };
+		981C7156155EB99500AC016F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 981C7155155EB99500AC016F /* Default.png */; };
+		981C7158155EB99A00AC016F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 981C7157155EB99A00AC016F /* Default@2x.png */; };
+		981C715C155EBBCD00AC016F /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 981C715B155EBBCD00AC016F /* Icon@2x.png */; };
+		981C715E155EBBE000AC016F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 981C715D155EBBE000AC016F /* Icon.png */; };
+		981C7166155EBD4C00AC016F /* nelson-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 981C7151155EB7A500AC016F /* nelson-bg.png */; };
+		981C7167155EBD4C00AC016F /* nelson-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 981C7152155EB7A500AC016F /* nelson-bg@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		981C7120155E8DDA00AC016F /* HaHa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaHa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		981C7124155E8DDA00AC016F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		981C7126155E8DDA00AC016F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		981C7128155E8DDA00AC016F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		981C712C155E8DDA00AC016F /* HaHa-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HaHa-Info.plist"; sourceTree = "<group>"; };
+		981C712E155E8DDA00AC016F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		981C7130155E8DDA00AC016F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		981C7132155E8DDA00AC016F /* HaHa-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HaHa-Prefix.pch"; sourceTree = "<group>"; };
+		981C7133155E8DDA00AC016F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		981C7134155E8DDA00AC016F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		981C713D155E8E1000AC016F /* haha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = haha.mp3; sourceTree = "<group>"; };
+		981C7144155E906600AC016F /* NelsonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NelsonViewController.h; sourceTree = "<group>"; };
+		981C7145155E906600AC016F /* NelsonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NelsonViewController.m; sourceTree = "<group>"; };
+		981C7146155E906600AC016F /* NelsonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NelsonViewController.xib; sourceTree = "<group>"; };
+		981C714B155E9B7600AC016F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		981C7151155EB7A500AC016F /* nelson-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nelson-bg.png"; sourceTree = "<group>"; };
+		981C7152155EB7A500AC016F /* nelson-bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nelson-bg@2x.png"; sourceTree = "<group>"; };
+		981C7155155EB99500AC016F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		981C7157155EB99A00AC016F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		981C715B155EBBCD00AC016F /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
+		981C715D155EBBE000AC016F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		981C711D155E8DDA00AC016F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981C714C155E9B7600AC016F /* AVFoundation.framework in Frameworks */,
+				981C7125155E8DDA00AC016F /* UIKit.framework in Frameworks */,
+				981C7127155E8DDA00AC016F /* Foundation.framework in Frameworks */,
+				981C7129155E8DDA00AC016F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		981C7115155E8DDA00AC016F = {
+			isa = PBXGroup;
+			children = (
+				981C712A155E8DDA00AC016F /* HaHa */,
+				981C7123155E8DDA00AC016F /* Frameworks */,
+				981C7121155E8DDA00AC016F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		981C7121155E8DDA00AC016F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				981C7120155E8DDA00AC016F /* HaHa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		981C7123155E8DDA00AC016F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				981C714B155E9B7600AC016F /* AVFoundation.framework */,
+				981C7124155E8DDA00AC016F /* UIKit.framework */,
+				981C7126155E8DDA00AC016F /* Foundation.framework */,
+				981C7128155E8DDA00AC016F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		981C712A155E8DDA00AC016F /* HaHa */ = {
+			isa = PBXGroup;
+			children = (
+				981C7143155E904300AC016F /* imgs */,
+				981C7149155E92F200AC016F /* sounds */,
+				981C714A155E92FB00AC016F /* nelson view controller */,
+				981C7133155E8DDA00AC016F /* AppDelegate.h */,
+				981C7134155E8DDA00AC016F /* AppDelegate.m */,
+				981C712B155E8DDA00AC016F /* Supporting Files */,
+			);
+			path = HaHa;
+			sourceTree = "<group>";
+		};
+		981C712B155E8DDA00AC016F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				981C712C155E8DDA00AC016F /* HaHa-Info.plist */,
+				981C712D155E8DDA00AC016F /* InfoPlist.strings */,
+				981C7130155E8DDA00AC016F /* main.m */,
+				981C7132155E8DDA00AC016F /* HaHa-Prefix.pch */,
+				981C7168155EBDCE00AC016F /* iconImgs */,
+				981C7169155EBDD400AC016F /* defaultImgs */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		981C7143155E904300AC016F /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				981C7151155EB7A500AC016F /* nelson-bg.png */,
+				981C7152155EB7A500AC016F /* nelson-bg@2x.png */,
+			);
+			name = imgs;
+			sourceTree = "<group>";
+		};
+		981C7149155E92F200AC016F /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				981C713D155E8E1000AC016F /* haha.mp3 */,
+			);
+			name = sounds;
+			sourceTree = "<group>";
+		};
+		981C714A155E92FB00AC016F /* nelson view controller */ = {
+			isa = PBXGroup;
+			children = (
+				981C7144155E906600AC016F /* NelsonViewController.h */,
+				981C7145155E906600AC016F /* NelsonViewController.m */,
+				981C7146155E906600AC016F /* NelsonViewController.xib */,
+			);
+			name = "nelson view controller";
+			sourceTree = "<group>";
+		};
+		981C7168155EBDCE00AC016F /* iconImgs */ = {
+			isa = PBXGroup;
+			children = (
+				981C715D155EBBE000AC016F /* Icon.png */,
+				981C715B155EBBCD00AC016F /* Icon@2x.png */,
+			);
+			name = iconImgs;
+			sourceTree = "<group>";
+		};
+		981C7169155EBDD400AC016F /* defaultImgs */ = {
+			isa = PBXGroup;
+			children = (
+				981C7157155EB99A00AC016F /* Default@2x.png */,
+				981C7155155EB99500AC016F /* Default.png */,
+			);
+			name = defaultImgs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		981C711F155E8DDA00AC016F /* HaHa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 981C7138155E8DDA00AC016F /* Build configuration list for PBXNativeTarget "HaHa" */;
+			buildPhases = (
+				981C711C155E8DDA00AC016F /* Sources */,
+				981C711D155E8DDA00AC016F /* Frameworks */,
+				981C711E155E8DDA00AC016F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HaHa;
+			productName = HaHa;
+			productReference = 981C7120155E8DDA00AC016F /* HaHa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		981C7117155E8DDA00AC016F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = mtrovilho;
+			};
+			buildConfigurationList = 981C711A155E8DDA00AC016F /* Build configuration list for PBXProject "HaHa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 981C7115155E8DDA00AC016F;
+			productRefGroup = 981C7121155E8DDA00AC016F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				981C711F155E8DDA00AC016F /* HaHa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		981C711E155E8DDA00AC016F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981C7166155EBD4C00AC016F /* nelson-bg.png in Resources */,
+				981C7167155EBD4C00AC016F /* nelson-bg@2x.png in Resources */,
+				981C712F155E8DDA00AC016F /* InfoPlist.strings in Resources */,
+				981C713E155E8E1000AC016F /* haha.mp3 in Resources */,
+				981C7148155E906600AC016F /* NelsonViewController.xib in Resources */,
+				981C7156155EB99500AC016F /* Default.png in Resources */,
+				981C7158155EB99A00AC016F /* Default@2x.png in Resources */,
+				981C715C155EBBCD00AC016F /* Icon@2x.png in Resources */,
+				981C715E155EBBE000AC016F /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		981C711C155E8DDA00AC016F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981C7131155E8DDA00AC016F /* main.m in Sources */,
+				981C7135155E8DDA00AC016F /* AppDelegate.m in Sources */,
+				981C7147155E906600AC016F /* NelsonViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		981C712D155E8DDA00AC016F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				981C712E155E8DDA00AC016F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		981C7136155E8DDA00AC016F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		981C7137155E8DDA00AC016F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		981C7139155E8DDA00AC016F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HaHa/HaHa-Prefix.pch";
+				INFOPLIST_FILE = "HaHa/HaHa-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		981C713A155E8DDA00AC016F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HaHa/HaHa-Prefix.pch";
+				INFOPLIST_FILE = "HaHa/HaHa-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		981C711A155E8DDA00AC016F /* Build configuration list for PBXProject "HaHa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				981C7136155E8DDA00AC016F /* Debug */,
+				981C7137155E8DDA00AC016F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		981C7138155E8DDA00AC016F /* Build configuration list for PBXNativeTarget "HaHa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				981C7139155E8DDA00AC016F /* Debug */,
+				981C713A155E8DDA00AC016F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 981C7117155E8DDA00AC016F /* Project object */;
+}
